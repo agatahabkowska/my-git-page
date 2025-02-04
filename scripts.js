@@ -6,11 +6,11 @@ document.getElementById("moodForm").addEventListener("submit", function(event) {
 
   
     if (selectedMood === "Content") {
-        moodMessage = "That's great! Keep shining! 🌞";
+        moodMessage = "Focus on this feeling and think of at least 2 thing you are grateful for today!";
     } else if (selectedMood === "Neutral") {
-        moodMessage = "Stay balanced, take a deep breath. 🌿";
+        moodMessage = "Take a deep breath on the count of 4. Hold for 7. Let out for 8. ";
     } else if (selectedMood === "Sad") {
-        moodMessage = "Sending you a virtual hug! 💙";
+        moodMessage = "Try belly breathing for a minute: put a hand on your stomach and feel it expand with every breath in....";
     }
 
     
