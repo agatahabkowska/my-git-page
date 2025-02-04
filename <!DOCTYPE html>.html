@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Stay Mindful</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <h1>
+            <i>Your own <strong> mindfulness </strong> space</i>
+            </h1>
+        <img src="brainy.jpeg" alt="A brain"
+        width="150" height="80">
+        <h2>How are you feeling today?</h2>
+        
+    <form id="moodForm">
+        <label>
+            <input type="radio" name="mood" value="Content" checked>
+            ☻ Content
+        </label>
+        <label>
+            <input type="radio" name="mood" value="Neutral">
+             ☺︎ Neutral
+        </label>
+        <label>
+            <input type="radio" name="mood" value="Sad">
+            ☹︎ Sad
+        </label>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="moodOutput">Your mood will appear here.</div>
+
+    <style>
+        body {
+            font-family: Garamond, sans-serif;
+            text-align: center;
+        }
+        form {
+            margin: 20px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: lightsteelblue;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: steelblue;
+        }
+        #moodOutput {
+            margin-top: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            color: darkslategray;
+            padding: 10px;
+            border: 2px solid lightsteelblue;
+            display: inline-block;
+            min-width: 200px;
+        }
+    </style>
+
+        
+
+    <h3  style="border: 2px solid lightsteelblue;"> Let's start with an exercise to calm you down.</h3>
+        <p>Take a few seconds to breath deeply and focus on the senstations you are feeling.</p>
+
+     
+        <ol>
+            <li> Scan your body starting with your scalp</li>
+            <br>
+            <li>Move on to your forehead </li>
+            <br>
+            <li>Feel the sensations in your eye balls. </li>
+            <br>
+            <li>Move on to your gums.<br> Relax your jaw and neck. </li>
+            <br>
+            <li>Let your shoulders rest. <br> Go through each muscle from your arms to your feet and relax.<br> Count your left toes. <br>Count your right toes. </li>
+            <br>
+            <li>Squeze all your muscles at once. <br> Hold for 5 seconds. <br> Release.  </li>
+            <br>
+
+<script src="scripts.js"></script>
+</body>
